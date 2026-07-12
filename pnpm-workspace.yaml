@@ -1,0 +1,8 @@
+allowBuilds:
+  '@serialport/bindings-cpp': set this to true or false
+  '@tensorflow/tfjs-node': set this to true or false
+  canvas: set this to true or false
+  core-js: set this to true or false
+  esbuild: set this to true or false
+  node-webcam: set this to true or false
+  sharp: set this to true or false

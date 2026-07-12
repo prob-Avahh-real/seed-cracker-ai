@@ -1,0 +1,56 @@
+{
+  "name": "seed-cracker-ai",
+  "version": "1.0.0",
+  "description": "嗑瓜子神器 AI 驱动程序 — 基于计算机视觉和深度学习的智能瓜子开壳控制系统",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/ --ext .ts",
+    "format": "prettier --write 'src/**/*.ts'"
+  },
+  "keywords": [
+    "seed-cracker",
+    "ai",
+    "computer-vision",
+    "arduino",
+    "hardware",
+    "robotics"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "serialport": "^12.0.0",
+    "@tensorflow/tfjs-node": "^4.20.0",
+    "sharp": "^0.33.2",
+    "express": "^4.18.2",
+    "ws": "^8.16.0",
+    "commander": "^12.0.0",
+    "chalk": "^5.3.0",
+    "pino": "^8.19.0",
+    "pino-pretty": "^10.3.1",
+    "node-webcam": "^0.8.2",
+    "canvas": "^2.11.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.11.5",
+    "@types/serialport": "^8.0.5",
+    "@types/express": "^4.17.21",
+    "@types/ws": "^8.5.10",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "@types/jest": "^29.5.11",
+    "tsx": "^4.7.0",
+    "eslint": "^8.56.0",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "prettier": "^3.2.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

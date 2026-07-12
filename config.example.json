@@ -1,0 +1,30 @@
+{
+  "hardware": {
+    "serialPath": "/dev/tty.usbmodem1101",
+    "baudRate": 115200,
+    "crackServoAngle": 45,
+    "feedServoAngle": 90,
+    "pressureThreshold": 600,
+    "servoDelay": 500
+  },
+  "vision": {
+    "cameraDevice": "0",
+    "width": 640,
+    "height": 480,
+    "confidenceThreshold": 0.7,
+    "modelPath": "./models/orientation-model"
+  },
+  "ai": {
+    "maxRetries": 3,
+    "seedTimeout": 5000,
+    "seedInterval": 200,
+    "enableQualityCheck": true,
+    "separationThreshold": 0.8
+  },
+  "server": {
+    "port": 3000,
+    "enableWebSocket": true,
+    "corsOrigin": "*"
+  },
+  "modelPath": "./models/orientation-model"
+}
